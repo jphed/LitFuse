@@ -11,8 +11,8 @@
 ## Step 2 - Make SSH keys and link them to GitHub
 > You're first gonna set up your ssh key so type the following command on your terminal, just replace the email to yours:<br><br>
 > `ssh-keygen -t rsa -b 4096 -C "email"`<br><br>
-> In case this doesn't work you're super unlucky so try this instead! **JUST IF THE PREVIOUS COMMAND DIDNT WORK**<br><br>
-> `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`<br><br>
+> Sometimes you won't see your ssh_id.pub file so just type this if thats the case: <br><br>
+> `$ cat ~/.ssh/id_rsa.pub"`<br><br>
 > Either way you're gonna get asked to type a password, please something not forgettable, in my case its "RamRanchReallyRocks31" cause cowboys never die! Oh yeah Shawn!<br><br>
 > Next up you're going to your GitHub account, go to **settings > SSH and GPG keys** and add the key you were given, it should have already told you the path were the key was stored so just open it up and paste the key to your GitHuh on "add new key" Pretty much what this does it enables connection from your PC to the GitHub repository.
 
