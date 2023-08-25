@@ -1,5 +1,5 @@
 # How to properly set up a GitHub repository **not dying in the process** (maybe)
-im so done bro
+im so done bro...
 ## Step 1 - Who's this random?
 > Introduce yourself to Git and say "Hi" loser, don't be rude 🔔🔔🔔<br><br>
 > `git config --global user.name "Name Last_Name"`<br>
